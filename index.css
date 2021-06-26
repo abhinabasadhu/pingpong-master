@@ -1,0 +1,138 @@
+* {
+	margin: 1500;
+	padding: 700;
+}
+
+.coverimg {
+	background-image: url("css/image/japan_2.jpg");
+	background-repeat: no-repeat;
+	background-size: 1370px 700px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: blueviolet;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+p {
+	align-items: center;
+	font-family: sans-serif;
+	font-display: bold;
+	font-size: 10;
+}
+
+#rcorners1 {
+	margin: -15% 1%;
+	padding: 1% 70%;
+	border-radius: 25px;
+	background: blueviolet;
+	text-align: center;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+
+div {
+	height: 60px;
+}
+
+div2 {
+	text-align: center;
+}
+
+#form {
+	margin: 5% 0;
+	text-align: center;
+	font-size: 30px;
+	font-style: bold;
+	color: rgb(126, 155, 194);
+}
+
+#y {
+	margin: 5% 0;
+	text-align: center;
+	font-size: 30px;
+	font-style: bold;
+	color: rgb(126, 155, 194);
+}
+
+#m {
+	font-family: "Franklin Gothic Medium";
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: lightblue;
+}
+
+h1 {
+	color: rgb(166, 146, 185);
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-style: italic;
+	color: rgb(166, 146, 185);
+}
+
+h3 {
+	color: rgb(166, 146, 185);
+	text-align: center;
+	font-size: 30px;
+}
+
+h4 {
+	margin: 1% 1%;
+	padding: 1% 39%;
+}
+
+#ping {
+	background-color: white;
+	margin: auto;
+}
+
+h6 {
+	margin: 1% 1%;
+	padding: 1% 70%;
+}
+
+body {
+	max-height: 95%;
+}
+td {
+	color: white;
+}
+html,
+body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
